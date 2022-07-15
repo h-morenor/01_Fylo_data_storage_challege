@@ -1,0 +1,171 @@
+body {
+  background-color: hsl(229, 57%, 11%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+div {
+  /*background-color: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);*/
+}
+
+/*
+.header {
+  width: auto;
+  height: 20rem;
+  border: 1px solid white;
+}*/
+
+.centre {
+  width: 1150px;
+  position: absolute;
+  top: 25%;
+  left: 250px;
+  z-index: 1;
+}
+
+.centre_left {
+  background-color: hsl(228, 56%, 26%);
+  width: 400px;
+  height: 250px;
+  border-radius: 25px;
+  border-top-right-radius: 10em;
+  border-bottom-right-radius: 0;
+}
+
+.center_left_inside {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  top: 25%;
+  left: 10%;
+}
+.center_left_inside_2 {
+  position: relative;
+  height: auto;
+  font-size: 50px;
+  top: 35%;
+  left: 10%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(229, 57%, 11%);
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.centre_right {
+  background-color: hsl(228, 56%, 26%);
+  color: white;
+  font-size: 14px;
+  width: 700px;
+  height: 200px;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+}
+
+.centre_right_1 {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+.centre_right_2 {
+  position: absolute;
+  top: 70px;
+  left: 500px;
+}
+.gradient {
+  display: flex;
+  background-color: hsl(229, 57%, 11%);
+  border: 2px solid hsl(229, 57%, 11%);
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 500px;
+  border-radius: 50px;
+}
+.gradient_1 {
+  width: 81.5%;
+  height: 15px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 78.5%;
+  top: 5%;
+}
+.gradient_2 {
+  width: 18.5%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.centre_right_3 {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+.centre_right_4 {
+  position: absolute;
+  top: 130px;
+  left: 500px;
+}
+
+.footer {
+  position: absolute;
+
+  top: 50%;
+  width: 1400px;
+}
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
+
+### Neutral
+
+- Pale Blue: hsl(243, 100%, 93%)
+- Grayish Blue: hsl(229, 7%, 55%)
+- Dark Blue: hsl(228, 56%, 26%) center
+- Very Dark Blue: hsl(229, 57%, 11%) font
+
+## Typography
+
+### Body Copy
+
+- Font size: 14px
+
+### Font
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700*/
