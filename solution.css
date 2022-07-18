@@ -22,7 +22,7 @@ div {
 .centre {
   width: 1150px;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 250px;
   z-index: 1;
 }
@@ -138,6 +138,11 @@ div {
     hsl(6, 100%, 80%),
     hsl(335, 100%, 65%)
   );
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: green;
+  height: 1em;
 }
 
 .ball {
